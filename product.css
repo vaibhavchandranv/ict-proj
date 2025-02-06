@@ -1,0 +1,43 @@
+body {
+    font-family: 'Inter', serif;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.header {
+    width: 100vw;
+    background: linear-gradient(180deg, #35A5EE 0%, #1264D6 100%);
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.main {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    gap: 20px;
+    padding: 0px;
+    background: linear-gradient(180deg, #2679AE 0%, #0044A1 100%);
+}
+
+h1 {
+    font-weight: 400;
+    margin: 0;
+}
+
+img {
+    width: auto;
+    height: 820px;
+}
